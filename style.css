@@ -13,7 +13,6 @@
     background-color: white;
     color: black;
     padding: 0 2rem;
-    border-bottom:solid grey 1px;
     font-family: "Poppins";
 }
 
@@ -37,4 +36,5 @@
 
 .left-margin {
     margin-right: 24px;
+    font-size:14px;
 }
