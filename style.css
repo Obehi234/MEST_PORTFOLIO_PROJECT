@@ -3,7 +3,6 @@
 }
 .container{
     width: 100%;
-    
 }
 
 .nav-box {
@@ -31,7 +30,6 @@
 .right-flex li{
     list-style: none;
     color: grey;
-    
 }
 
 .right-flex li a {
@@ -53,5 +51,11 @@
     font-family: "Poppins";
     color:grey;
     weight:500px;
+    font-size: 60px;
+    padding-top: 120px;
 
+}
+
+.typed{
+    color: black;
 }

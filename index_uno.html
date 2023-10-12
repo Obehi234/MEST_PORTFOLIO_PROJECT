@@ -15,7 +15,7 @@
 <body>
 	<div class="container">
     <nav class="nav-box">
-		<img class="my-logo" src="./images_portfolio/black-logo.png" alt="personal-logo">
+		<img class="my-logo" src="./images_portfolio/ologo.png" alt="personal-logo">
 		<ul class="right-flex">
 			<li class="left-margin"><a href="about.html">ABOUT</a></li>
 			<li class="left-margin"><a href="portfolio.html">PORTFOLIO</a></li>
@@ -27,18 +27,33 @@
 	<div class ="body-wrapper">
 
 		<div class="side-text">
-			<p class="body-text" >I craft <span class="animation-text">web and mobile applications</span>  </p>
+			<p class="body-text" >I create <span class="typed"></span>  </p>
+			<p class="sub-text"></p>
+
+	
 
 			<h5 class="cta-text" >Lets talk </h5>
+			<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+			<script>
+				var typed = new Typed('.typed', {
+					strings: ['illustrations', 'brand experiences', 'websites', 'mobile applications', 'magic'],
+					smartBackspace: true,
+					typeSpeed:80,
+					startDelay:500,
+					loop:false,
+					loopCount: 3,
+					showCursor: true,
+					cursorChar: '/',
+					autoInsertCss: true
+				})
+			</script>
 
 		</div>
 		
-
-	
 	</div>
 	
     
     </div>
 </body>
-<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
 </html>
