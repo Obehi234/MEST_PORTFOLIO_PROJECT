@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 0 2rem;
+    border-bottom:solid grey 1px;
+    font-family: "Poppins";
+}
+
+.right-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    
+}
+
+.right-flex li{
+    list-style: none;
+    color: grey;
+    
+}
+
+.right-flex li a {
+    text-decoration: none;
+}
+  
+
+.left-margin {
+    margin-right: 24px;
+}
