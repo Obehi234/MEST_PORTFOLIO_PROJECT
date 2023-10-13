@@ -116,4 +116,29 @@ hr{
 }
 
 
-/*//////////////Portfolio - Page 3 Styling             /////////*/
+/*//////////////Portfolio -   Page 3 Styling             /////////*/
+.portfolio-wrapper{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+.portfolio-header{
+    padding:1rem;
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.portfolio-subheader{
+    color:grey;
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+.card-display{
+    display:flex;
+    flex-wrap:wrap;
+    max-width:50vw;
+}
