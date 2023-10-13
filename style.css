@@ -74,7 +74,7 @@ hr{
     font-size: 24px;
 }
 
-/*Page 2- About Page*/
+/*////////            Page 2- About Page Styling                  ////////////////////////*/
 
 .wrapper-about{
     padding: 60px;
@@ -95,18 +95,22 @@ hr{
 }
 
 .home-arrow{
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-weight: bold;
     font-size: 35px;
     display:flex;
     align-items:center;
-
-
 }
 
-.home-text{
-    font-size: 20px;
+.about-nav-list li a{
+    font-size: 12px;
     color:grey;
     margin-left:.5rem;
+    text-decoration:underline;
 }
 
+.nav-box-about{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
