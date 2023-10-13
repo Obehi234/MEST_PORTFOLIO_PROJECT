@@ -4,16 +4,43 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+	/>
 	<title>About Me</title>
 </head>
 <body>
 
-<h1>About Me</h1>
-	
-<p>I am a skilled web designer with a strong background <br> in graphic design.
-I strive to create visually stunning and <br> user-friendly websites that leave a
-lasting impression.<br> With a keen eye for detail and a passion for creativity,I
-<br> bring unique and innovative ideas to every project.</p>
+<div class="wrapper-about">
 
+	<h1>About Me</h1>
+	<hr>
+	<p class="about-body">Hi. I am Obehi. <br> I have a passion for well-crafted (digital) experiences, I believe <br>
+		in beauty and empowering ideas.	My goal is to connect people with brands <br> and
+		businesses through design, because the design will help create <br>
+		visuals, so that they can be understood by the user.
+	</p>
+	
+	<p class="home-arrow"> <span id="back-arrow" class="animate__bounceOutLeft animate__slower animate__delay-2s">&#x27F5 </span><span id="home-button" class="home-text">Home</span></p>
+
+	</div>
 </body>
+<script>
+	document.getElementById("back-arrow").addEventListener("click", (e)=> {
+		console.log(e)
+		e.target.classList.add("animate__animated")
+		setTimeout(()=> {
+			window.location.href = "index_uno.html"
+
+		}, 900)
+	})
+</script>
 </html>

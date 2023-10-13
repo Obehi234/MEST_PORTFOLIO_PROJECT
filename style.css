@@ -73,3 +73,40 @@ hr{
 .cta-text{
     font-size: 24px;
 }
+
+/*Page 2- About Page*/
+
+.wrapper-about{
+    padding: 60px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+.wrapper-about hr{
+    border-top: 5px solid #333;
+    width: 40px;
+}
+
+.about-body {
+    text-align: center;
+}
+
+.home-arrow{
+    padding-top: 2rem;
+    font-weight: bold;
+    font-size: 35px;
+    display:flex;
+    align-items:center;
+
+
+}
+
+.home-text{
+    font-size: 20px;
+    color:grey;
+    margin-left:.5rem;
+}
+
