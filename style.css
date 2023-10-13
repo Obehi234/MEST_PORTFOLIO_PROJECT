@@ -107,6 +107,7 @@ hr{
     color:grey;
     margin-left:.5rem;
     text-decoration:underline;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .nav-box-about{
@@ -145,6 +146,7 @@ hr{
 .project {
     background-color: #f0f0f0;
     border: 1px solid #ccc;
+    border-radius:10px;
 }
 
 .bg {
@@ -155,5 +157,13 @@ hr{
     color: grey;
     text-align: center;
     font-size: 24px;
-    padding:1rem;
+    border-radius:10px;
+
+}
+
+.bg img {
+    border-radius:10px;
+    object-fit:cover;
+    width:450px;
+    height:338px;
 }
