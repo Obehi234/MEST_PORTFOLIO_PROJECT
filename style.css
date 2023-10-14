@@ -35,6 +35,11 @@
 .right-flex li a {
     text-decoration: none;
 }
+
+.arrow-link {
+    text-decoration: none;
+    color:black;
+}
   
 
 .left-margin {
@@ -73,6 +78,8 @@ hr{
 
 .cta-text{
     font-size: 24px;
+    text-decoration: none;
+    color: black;
 }
 
 /*////////            Page 2- About Page Styling                  ////////////////////////*/
